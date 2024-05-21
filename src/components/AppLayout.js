@@ -10,8 +10,6 @@ import Analytics from './Analytics';
 const AppLayout = () => {
   return (
     <div className='applayout'>
-        <Navbar/>
-        <LeftPanel/>
         <div className='analyticsnavbar'>
                <div className='pienav1 pieshiptxt analyticsship'>
                     <img src={ship} className='analyticsimgship' alt='ship'/>

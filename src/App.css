@@ -10,6 +10,13 @@
   text-decoration: none;
  
 }
+.script{
+  width: Hug(1920px)px;
+  height: Hug(2197px)px;
+  background: rgba(241, 241, 241, 1);
+  position: relative;
+  overflow: hidden;
+}
 .font{
     font-family: Poppins;
     font-size: 24px;

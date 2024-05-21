@@ -8,8 +8,6 @@ import DashboardPanel from './DashboardPanel';
 const Dashboard = () => {
   return (
     <div className="dashboard">
-        <Navbar/>
-        <LeftPanel/>
         <div className='outletbox'>
           <DashboardPanel />
         </div>

@@ -1,15 +1,7 @@
-.dashboard{
-    width: 1920px;
-    height: 1734px;
-    background: rgba(241, 241, 241, 1);
-    position: relative;
-    overflow: hidden;
-   
-}
 .outletbox{
     width: 1545px;
     height: 1626.49px;
-    position: absolute;
+    position: relative;
     top: 88px;
     left: 330px;
 }

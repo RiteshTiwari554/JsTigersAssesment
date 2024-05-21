@@ -2,17 +2,17 @@ import './App.css';
 import Dashboard from './components/Dashboard';
 import AppLayout from './components/AppLayout';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import LeftPanel from './components/LeftPanel';
+import Script from './Script';
 
 const routes = [
   {
     path: "/",
-    element: <Dashboard />,
+    element: <Script />,
     children: [
       { path: "/", element: <Dashboard /> },
+      { path: "/applayout", element: <AppLayout /> },
     ],
   },
-  { path: "/applayout", element: <AppLayout /> },
 ];
 
 const appRouter = createBrowserRouter(routes);
@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       {/* Other components */}
       <RouterProvider router={appRouter} >
-            <Outlet/>
+            <Script/>
         </RouterProvider>
     </div>
   );

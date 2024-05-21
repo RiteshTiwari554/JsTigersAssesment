@@ -1,14 +1,14 @@
 .applayout{
     width: 1920px;
-    height: 2197px;
+    height: 2137px;
     background: rgba(241, 241, 241, 1);
-    position: relative;
     overflow: hidden;
 }
 .analyticsnavbar{
     position: absolute;
     width: Hug(281px)px;
     height: 32px;
+    margin: 0;
     top: 88px;
     left: 960px;
     display: flex;
